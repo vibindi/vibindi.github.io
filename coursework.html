@@ -43,43 +43,144 @@
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-lg-12">
               <h1 class="display-10 fw-bold lh-1 mb-3 section-header" style="color: #FFFFFF">Coursework</h1>
-              <br>
-              <p><strong>Purdue University</strong> (Winter 2024)  &nbsp;|&nbsp; <em>Bachelor of Science in Computer Science and Data Science</em></p>
-              <br>
-              <h3>Fall 2023</h3>
-              <ul>
-                <li><strong>CS 348:</strong> Information Systems</li>
-                <li><strong>CS 373:</strong> Data Mining and Machine Learning</li>
-                <li><strong>CS 471:</strong> Intro to Artificial Intelligence</li>
-              </ul>
-              <h3>Spring 2023</h3>
-              <ul>
-                <li><strong>CS 25200:</strong> Systems Programming (C, Unix, GDB, C++)</li>
-                <li><strong>CS 30700:</strong> Software Engineering (React, Flask, Python, JavaScript, HTML/CSS, SQLAlchemy)</li>
-                <li><strong>STAT 41600:</strong> Probability</li>
-              </ul>
-              <h3>Fall 2022</h3>
-              <ul>
-                <li><strong>CS 24200:</strong> Introduction to Data Science (Python, Pandas, Sci-kit Learn, Matplotlib)</li>
-                <li><strong>CS 25000:</strong> Computer Architecture (C, Assembly, Circuits)</li>
-                <li><strong>CS 25100:</strong> Data Structures and Algorithms (Java)</li>
-                <li><strong>STAT 35500:</strong> Statistics for Data Science (R)</li>
-              </ul>
-              <h3>Spring 2022</h3>
-              <ul>
-                <li><strong>CS 18200:</strong> Foundations of Computer Science (Discrete Math)</li>
-                <li><strong>CS 24000:</strong> Programming in C (C, GDB)</li>
-                <li><strong>MA 35100:</strong> Elementary Linear Algebra</li>
-                <li><strong>CS 38003:</strong> Python Programming (Python, Pandas, Numpy, Matplotlib)</li>
-                <li><strong>STAT 19000:</strong> Data Mine II (Python, Pandas, Numpy, Matplotlib)</li>
-              </ul>
-              <h3>Fall 2021</h3>
-              <ul>
-                <li><strong>CS 18000:</strong> Problem Solving And Object Oriented Programming (Java, JUnit)</li>
-                <li><strong>CS 19300:</strong> Tools (Git, Unix)</li>
-              </ul>
-              <hr><br>
-              <h2>Certifications</h2>
+
+              <div class="container px-4 py-5" id="custom-cards">
+                <p><strong>Purdue University</strong> (Winter 2024)  &nbsp;|&nbsp; <em>Bachelor of Science in Computer Science and Data Science</em></p>
+                <!--Fall 2023-->
+                <div class="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 py-2">
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden rounded-4" style="background-color: #2b2b2b;">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" style="color: white;">
+                        <h3 class="mt-2 mb-4 display-6 lh-1 fw-bold">Fall 2023</h3>
+                        <ul>
+                          <li><strong>CS 348:</strong> Information Systems</li>
+                          <li><strong>CS 373:</strong> Data Mining and Machine Learning</li>
+                          <li><strong>CS 471:</strong> Intro to Artificial Intelligence</li>
+                          <li><strong>STAT 417:</strong> Statistical Theory</li>
+                        </ul>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">SQL</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Databases</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Python</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Spring 2023-->
+                <div class="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 py-2">
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden rounded-4" style="background-color: #2b2b2b;">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" style="color: white;">
+                        <h3 class="mt-2 mb-4 display-6 lh-1 fw-bold">Spring 2023</h3>
+                        <ul>
+                          <li><strong>CS 25200:</strong> Systems Programming</li>
+                          <li><strong>CS 30700:</strong> Software Engineering</li>
+                          <li><strong>STAT 41600:</strong> Probability</li>
+                        </ul>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">C/C++</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Unix</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">GDB</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Python</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">React.js</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">JavaScript</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Flask</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">HTML/CSS</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">SQLAlchemy</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Fall 2022-->
+                <div class="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 py-2">
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden rounded-4" style="background-color: #2b2b2b;">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" style="color: white;">
+                        <h3 class="mt-2 mb-4 display-6 lh-1 fw-bold">Fall 2022</h3>
+                        <ul>
+                          <li><strong>CS 24200:</strong> Introduction to Data Science</li>
+                          <li><strong>CS 25000:</strong> Computer Architecture</li>
+                          <li><strong>CS 25100:</strong> Data Structures and Algorithms</li>
+                          <li><strong>STAT 35500:</strong> Statistics for Data Science</li>
+                        </ul>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Python</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Pandas</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Numpy</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Scikit Learn</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Matplotlib</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Java</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">C</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Assembly</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Circuits</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">R</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Spring 2022-->
+                <div class="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 py-2">
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden rounded-4" style="background-color: #2b2b2b;">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" style="color: white;">
+                        <h3 class="mt-2 mb-4 display-6 lh-1 fw-bold">Spring 2022</h3>
+                        <ul>
+                          <li><strong>CS 18200:</strong> Foundations of Computer Science (Discrete Math)</li>
+                          <li><strong>CS 24000:</strong> Programming in C</li>
+                          <li><strong>MA 35100:</strong> Elementary Linear Algebra</li>
+                          <li><strong>CS 38003:</strong> Python Programming</li>
+                          <li><strong>STAT 19000:</strong> Data Mine II</li>
+                        </ul>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Python</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Pandas</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Numpy</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Matplotlib</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">C</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">GDB</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Fall 2021-->
+                <div class="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 py-2">
+                  <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden rounded-4" style="background-color: #2b2b2b;">
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1" style="color: white;">
+                        <h3 class="mt-2 mb-4 display-6 lh-1 fw-bold">Fall 2021</h3>
+                        <ul>
+                          <li><strong>CS 18000:</strong> Problem Solving And Object Oriented Programming</li>
+                          <li><strong>CS 19300:</strong> Tools</li>
+                        </ul>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Java</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">JUnit</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Git</span>
+                            <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">Unix</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
